@@ -1,0 +1,58 @@
+.....how to contribute in open source through git step by step procesure
+
+step-1 =>  first fork the repository.
+
+step-2 =>  then copy the repository url and the open the your git .
+
+step-3 =>  in the git open the the folder you want to save your project you should the command
+		cd <your folder> like,  cd desktop/open-source-projects/
+
+step-4 =>  then using the git command to clone the url that copy in the step-2 like,
+		git clone <paste the copied project url>
+
+step-5=>  go to the clone project by using the command 
+		cd clone_project/
+
+step-6=>  set remote to push or pull using the command
+		 git remote -v
+
+..after some changing...
+
+step-7 =>  add the changes in the file using git command 
+		git add .    // for all the file you make changes 
+		git add <file_name>  // for the specific file
+
+
+step-8 =>  after adding now you do commit to use the command . git commit is used to create a snapshot of the staged changes along a timeline of a Git projects history.git 
+		git commit -m "add your msg what you do"        //  imp hh
+
+step-9 =>  then you push the changes by using the commands.
+		git push origen main   // or the branch or master  whatever where you were changes
+
+
+
+
+## git command-1 =>  git status   // it's use to check the branch is that anything is committed or not or what the things is going on that 
+
+## comm 2 =>  git remote -v  // it is tell the origin of the project
+
+## commn-3 => git remote add upstream  <url of that project where you fork the project>      // this is used to direct pull or push the that project we fork means like we can direct push or pull in the main project
+
+## comm-4 => git pull   // it tell that is their anyone also who make changes on that file or to take updates or with pull we take their changes
+
+## comm-5 => git push origen pradeep // tp push ypur changes 
+
+
+
+....branches concept.....
+# why we using branches ? 
+  - because when we work on the big project we uses branch to avoid the any effect on the main branch if the project is good in working we commit the project in the main branch. 
+
+ ~in the git we can make branches by using the git command 
+1. git branch branch_name
+
+ ~ to switch the that branch using the git command is 
+2. git checkout branch_name 
+ 
+ 
+
